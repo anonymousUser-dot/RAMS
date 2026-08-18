@@ -1,0 +1,4 @@
+MAE,MAE_gain_vs_base_pct,MSE,MSE_gain_vs_base_pct,base_root,dataset,model,model_id,seed,status,tag
+0.44446858763694763,,0.7036152482032776,,D:\CNU\research\IMTS_Forecasting\storage\results_BigData2026_v322_public_baselines_e4,MHEALTH,tPatchGNN,local_baselines_MHEALTH_tpatchgnn_e4_s5301,5301,done,base
+,,,,,MHEALTH,RAMS-tPatch,v328_MHEALTH_tPatchGNN_ramstpatch_default_gate_e3_s5301,5301,missing,default_gate
+,,,,,MHEALTH,RAMS-tPatch,v328_MHEALTH_tPatchGNN_ramstpatch_no_warmup_e3_s5301,5301,missing,no_warmup

@@ -1,0 +1,13 @@
+MAE,MAE_gain_vs_base_pct,MSE,MSE_gain_vs_base_pct,base_root,dataset,model,model_id,seed,status,tag
+0.11791649460792542,,0.043656233698129654,,/root/autodl-tmp/APN/storage/results_BigData2026_v351_kafnet_rams_a,HumanActivity,KAFNet,local_baselines_HumanActivity_kafnet_e4_s3001,3001,done,base
+0.11656693369150162,1.1445056274027763,0.04331079497933388,0.7912700879887764,,HumanActivity,RAMS-KAFNet,v351a_HumanActivity_KAFNet_rams_gate_e3_s3001,3001,done,gate
+0.12019377946853638,,0.043970055878162384,,/root/autodl-tmp/APN/storage/results_BigData2026_v351_kafnet_rams_a,HumanActivity,KAFNet,local_baselines_HumanActivity_kafnet_e4_s3002,3002,done,base
+0.11415005475282669,5.028317390827848,0.04264570400118828,3.011940400175479,,HumanActivity,RAMS-KAFNet,v351a_HumanActivity_KAFNet_rams_gate_e3_s3002,3002,done,gate
+0.11587007343769073,,0.04306543618440628,,/root/autodl-tmp/APN/storage/results_BigData2026_v351_kafnet_rams_a,HumanActivity,KAFNet,local_baselines_HumanActivity_kafnet_e4_s3003,3003,done,base
+0.11340832710266113,2.1245747603270564,0.04241839423775673,1.5024623084715003,,HumanActivity,RAMS-KAFNet,v351a_HumanActivity_KAFNet_rams_gate_e3_s3003,3003,done,gate
+0.48901498317718506,,0.7548765540122986,,/root/autodl-tmp/APN/storage/results_BigData2026_v351_kafnet_rams_a,MHEALTH,KAFNet,local_baselines_MHEALTH_kafnet_e4_s3001,3001,done,base
+0.45062702894210815,7.850056860357544,0.7148075103759766,5.308025984294805,,MHEALTH,RAMS-KAFNet,v351a_MHEALTH_KAFNet_rams_gate_e3_s3001,3001,done,gate
+0.47240301966667175,,0.7490341663360596,,/root/autodl-tmp/APN/storage/results_BigData2026_v351_kafnet_rams_a,MHEALTH,KAFNet,local_baselines_MHEALTH_kafnet_e4_s3002,3002,done,base
+0.4471879303455353,5.337622384151625,0.7162980437278748,4.370444511004791,,MHEALTH,RAMS-KAFNet,v351a_MHEALTH_KAFNet_rams_gate_e3_s3002,3002,done,gate
+0.4719621241092682,,0.7500750422477722,,/root/autodl-tmp/APN/storage/results_BigData2026_v351_kafnet_rams_a,MHEALTH,KAFNet,local_baselines_MHEALTH_kafnet_e4_s3003,3003,done,base
+0.4517582356929779,4.280828351304882,0.7237234115600586,3.513199240537974,,MHEALTH,RAMS-KAFNet,v351a_MHEALTH_KAFNet_rams_gate_e3_s3003,3003,done,gate

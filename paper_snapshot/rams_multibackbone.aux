@@ -1,0 +1,89 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section.1}\protected@file@percent }
+\citation{grud,brits,latentode,seft,mtan}
+\citation{rubin}
+\citation{grafiti,tpatchgnn}
+\citation{life}
+\citation{jointlocalglobal}
+\citation{informer,autoformer,timesnet,patchtst,mtgnn}
+\citation{kafnet}
+\citation{lara}
+\citation{mhealth}
+\citation{opportunity}
+\citation{pamap2}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {III}Preliminaries and Target Setting}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Mechanism-State Aliasing}{3}{section.4}\protected@file@percent }
+\newlabel{thm:alias}{{1}{3}{Mechanism-state non-identifiability of value-level patch states}{theorem.1}{}}
+\newlabel{thm:phase}{{2}{3}{Group-asynchronous mechanism frontier}{theorem.2}{}}
+\newlabel{prop:diagnostic}{{1}{4}{Finite diagnostic target}{proposition.1}{}}
+\newlabel{prop:residual-value}{{2}{4}{Exact residual value under squared loss}{proposition.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}\textnormal  {\mbox  {RAMS}}{} Framework}{4}{section.5}\protected@file@percent }
+\newlabel{sec:method}{{V}{4}{\method {} Framework}{section.5}{}}
+\newlabel{eq:main-model}{{17}{4}{\method {} Framework}{equation.17}{}}
+\newlabel{eq:branchmix}{{18}{4}{\method {} Framework}{equation.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Mechanism-State Residual Operator}{5}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Mechanism-State Encoder}{5}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Overall view of \textnormal  {\mbox  {RAMS}}. A frozen IMTS backbone \(F_0\) provides the level forecast; the paper instantiates this interface with \textnormal  {\mbox  {tPatchGNN}}{} and \textnormal  {\mbox  {KAFNet}}{}. Deployment-visible mechanism-state summaries feed local and integral residual branches. A closed-initialized gate selects the residual correction per forecasted time--channel entry. The training protocol is fixed: branch warmup, gate fine-tuning, and paired test MSE/MAE against the matched \(F_0\) checkpoint.}}{6}{figure.1}\protected@file@percent }
+\newlabel{fig:architecture}{{1}{6}{Overall view of \method . A frozen IMTS backbone \(F_0\) provides the level forecast; the paper instantiates this interface with \baseT {} and \baseK {}. Deployment-visible mechanism-state summaries feed local and integral residual branches. A closed-initialized gate selects the residual correction per forecasted time--channel entry. The training protocol is fixed: branch warmup, gate fine-tuning, and paired test MSE/MAE against the matched \(F_0\) checkpoint}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}Local and Integral Branches}{6}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-D}}Mechanism Gate}{6}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-E}}Level-Preserving Residual Operator}{6}{subsection.5.5}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Registered \textnormal  {\mbox  {RAMS}}{} training and inference}}{7}{algorithm.1}\protected@file@percent }
+\newlabel{alg:ramstpatch}{{1}{7}{Training Objective}{algorithm.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-F}}Training Objective}{7}{subsection.5.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Experiments}{7}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}Experimental Questions}{7}{subsection.6.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Shared-protocol public baseline scan and compact absolute performance on the main wearable suite. Entries are MSE/MAE; lower is better.}}{7}{table.1}\protected@file@percent }
+\newlabel{tab:baseline-scan}{{I}{7}{Shared-protocol public baseline scan and compact absolute performance on the main wearable suite. Entries are MSE/MAE; lower is better}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}Datasets, Backbones, and Instances}{7}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-C}}Protocol}{7}{subsection.6.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Registered forecasting protocol. These settings match the experiment script and are kept fixed across the target suite.}}{8}{table.2}\protected@file@percent }
+\newlabel{tab:protocol}{{II}{8}{Registered forecasting protocol. These settings match the experiment script and are kept fixed across the target suite}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-D}}Backbone-Parallel Paired Forecasting Results: RQ1--RQ3}{8}{subsection.6.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces \textnormal  {\mbox  {RAMS-tPatch}}{} 8-epoch strong-backbone confirmation. Entries show paired base-to-\textnormal  {\mbox  {RAMS}}{} values, gain percentages, and seed wins.}}{8}{table.5}\protected@file@percent }
+\newlabel{tab:strong}{{V}{8}{\tpatchinst {} 8-epoch strong-backbone confirmation. Entries show paired base-to-\method {} values, gain percentages, and seed wins}{table.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-E}}\textnormal  {\mbox  {KAFNet}}{} Backbone Results: RQ3}{8}{subsection.6.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces \textnormal  {\mbox  {RAMS-tPatch}}{} registered 4-epoch paired scan results. \textnormal  {\mbox  {RAMS}}{} uses one fixed default: the learned gate. It improves the strongest reproduced public IMTS backbone under the shared protocol (\textnormal  {\mbox  {tPatchGNN}}{}) on all average MSE/MAE comparisons in the main wearable suite.}}{9}{table.3}\protected@file@percent }
+\newlabel{tab:main}{{III}{9}{\tpatchinst {} registered 4-epoch paired scan results. \method {} uses one fixed default: the learned gate. It improves the strongest reproduced public IMTS backbone under the shared protocol (\baseT {}) on all average MSE/MAE comparisons in the main wearable suite}{table.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Paired aggregate evidence for the 4-epoch registered protocol over the nine dataset--seed pairs. Bootstrap \(p\) is one-sided \(\Pr (\bar  g\le 0)\) from paired resampling; sign \(p\) is the exact one-sided sign test.}}{9}{table.4}\protected@file@percent }
+\newlabel{tab:ci}{{IV}{9}{Paired aggregate evidence for the 4-epoch registered protocol over the nine dataset--seed pairs. Bootstrap \(p\) is one-sided \(\Pr (\bar g\le 0)\) from paired resampling; sign \(p\) is the exact one-sided sign test}{table.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces \textnormal  {\mbox  {RAMS-KAFNet}}{} paired results. The frozen backbone is \textnormal  {\mbox  {KAFNet}}{}, while the same mechanism-state residual gate, loss, split, and metric code are used.}}{9}{table.6}\protected@file@percent }
+\newlabel{tab:kafnet-confirm}{{VI}{9}{\kafinst {} paired results. The frozen backbone is \baseK {}, while the same mechanism-state residual gate, loss, split, and metric code are used}{table.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-F}}Soft-Admission and Mechanism Controls: RQ4}{9}{subsection.6.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {VIII}{\ignorespaces Branch/gate ablation aggregated over the nine registered \textnormal  {\mbox  {tPatchGNN}}{} dataset--seed pairs. Entries are paired gain percentages and seed wins over the same frozen checkpoints.}}{9}{table.8}\protected@file@percent }
+\newlabel{tab:branch-ablation}{{VIII}{9}{Branch/gate ablation aggregated over the nine registered \baseT {} dataset--seed pairs. Entries are paired gain percentages and seed wins over the same frozen checkpoints}{table.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {VII}{\ignorespaces \textnormal  {\mbox  {RAMS-KAFNet}}{} paired aggregate evidence over all twelve completed dataset--seed rows. Bootstrap \(p\) is one-sided paired resampling; sign \(p\) is the exact one-sided sign test.}}{9}{table.7}\protected@file@percent }
+\newlabel{tab:kafnet-ci}{{VII}{9}{\kafinst {} paired aggregate evidence over all twelve completed dataset--seed rows. Bootstrap \(p\) is one-sided paired resampling; sign \(p\) is the exact one-sided sign test}{table.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {IX}{\ignorespaces Mechanism-state controls. Entries are paired MSE/MAE gain percentages over the same frozen \textnormal  {\mbox  {tPatchGNN}}{} checkpoint.}}{9}{table.9}\protected@file@percent }
+\newlabel{tab:state-control}{{IX}{9}{Mechanism-state controls. Entries are paired MSE/MAE gain percentages over the same frozen \baseT {} checkpoint}{table.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-G}}Mechanism-State Aliasing Diagnostic: RQ5}{9}{subsection.6.7}\protected@file@percent }
+\bibcite{grud}{1}
+\bibcite{brits}{2}
+\bibcite{latentode}{3}
+\bibcite{seft}{4}
+\bibcite{mtan}{5}
+\bibcite{rubin}{6}
+\bibcite{grafiti}{7}
+\bibcite{tpatchgnn}{8}
+\bibcite{life}{9}
+\bibcite{jointlocalglobal}{10}
+\bibcite{informer}{11}
+\bibcite{autoformer}{12}
+\bibcite{timesnet}{13}
+\bibcite{patchtst}{14}
+\bibcite{mtgnn}{15}
+\bibcite{kafnet}{16}
+\bibcite{lara}{17}
+\bibcite{mhealth}{18}
+\bibcite{opportunity}{19}
+\bibcite{pamap2}{20}
+\@writefile{lot}{\contentsline {table}{\numberline {X}{\ignorespaces Mechanism-state aliasing diagnostic. After value matching, mechanism bins explain nonzero residual variation.}}{10}{table.10}\protected@file@percent }
+\newlabel{tab:alias}{{X}{10}{Mechanism-state aliasing diagnostic. After value matching, mechanism bins explain nonzero residual variation}{table.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-H}}Reproducibility and Diagnostics}{10}{subsection.6.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Conclusion}{10}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{10}{section*.1}\protected@file@percent }
+\gdef \@abspage@last{10}

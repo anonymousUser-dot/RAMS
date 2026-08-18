@@ -1,0 +1,25 @@
+{
+  "claim": "RAMS-tPatch targeted SOTA for group-asynchronous wearable IMTS",
+  "datasets": [
+    "MHEALTH",
+    "OPPORTUNITY",
+    "PAMAP2"
+  ],
+  "baselines": [
+    "APN",
+    "KAFNet",
+    "GraFITi",
+    "tPatchGNN"
+  ],
+  "seeds": [
+    5301,
+    5302,
+    5303
+  ],
+  "default_model": "MCORWrapper(tPatchGNN, frozen base, gate)",
+  "base_epochs": 4,
+  "residual_epochs": 3,
+  "main_root": "D:\\CNU\\research\\IMTS_Forecasting\\release\\BigData2026_rams_repro_v357\\code\\storage\\results_BigData2026_v322_ramstpatch_final",
+  "baseline_root": "D:\\CNU\\research\\IMTS_Forecasting\\release\\BigData2026_rams_repro_v357\\code\\storage\\results_BigData2026_v322_public_baselines_e4",
+  "diagnostic_root": "D:\\CNU\\research\\IMTS_Forecasting\\release\\BigData2026_rams_repro_v357\\code\\storage\\results_BigData2026_v322_reliability_alias_frontier"
+}
